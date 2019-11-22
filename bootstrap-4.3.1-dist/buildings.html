@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+     .navbar{
+      margin-bottom: 0;
+      border-radius: 0;
+      padding: 1% 0;
+      font-size: 1.2em;
+      border: 0;
+      background-color: #222222;!important
+      color: #222222;
+    }
+    .navbar-brand{
+      float: left;
+      min-height: 55px;
+      padding: 0 15px 5px;
+    }
+    .navbar-dark .navbar-nav .active a, .navbar-dark .navbar-nav .active a:focus,.navbar-dark .navbar-nav .active a:hover{
+      color: #FFFF;
+      background:#343A40; 
+    }
+    .navbar-nav li a{
+      color: #D5D5D5;
+    }
+    .nav-item{
+      margin-left:15px;
+      margin-right:15px;
+    }
+    .projects-section {
+      padding: 10rem 0;
+    }
+
+    .projects-section .featured-text {
+      padding: 2rem;
+    }
+
+    .building-img{
+      height: 65vh;
+    }
+
+    @media (min-width: 992px) {
+      #bar-left{
+        padding: 0 0 0 2rem;
+        border-left: 0.5rem solid #64a19d;
+      }
+      #bar-right{
+        padding: 0 2rem 0 0;
+        border-right: 0.5rem solid #64a19d !important;
+      }
+    }
+
+    .projects-section .project-text {
+      padding: 3rem;
+      font-size: 90%;
+    }
+
+    @media (min-width: 992px) {
+      .projects-section .project-text {
+        padding: 5rem;
+      }
+      .projects-section .project-text hr {
+        border-color: #64a19d;
+        border-width: .25rem;
+        width: 30%;
+      }
+    }
+/*    .col-xl-8{
+      max-width: none;
+      flex:none;
+    }*/
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">WebSite Name</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="buildings.html">Buildings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="building-img img-fluid mb-3 mb-lg-0" src="img/burj1.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left" id="bar-left">
+            <h4>Shoreline</h4>
+            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+      <div class="col-xl-4 col-lg-5">
+          <div class="featured-text bar-right text-center text-lg-left" id="bar-right">
+            <h4>Shoreline</h4>
+            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+          </div>
+        </div>
+        <div class="col-xl-8 col-lg-7">
+          <img class="building-img img-fluid mb-3 mb-lg-0" src="img/shanghai1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
