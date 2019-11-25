@@ -19,10 +19,15 @@
       background-color: #222222;!important
       color: #222222;
     }
-    .navbar-brand{
+     .navbar-brand{
+      color: #FFF;
       float: left;
       min-height: 55px;
-      padding: 0 15px 5px;
+      padding: 15px 5px 15px 5px;
+    }
+    .brand-img{
+      width: 2em;
+      height: 2em;
     }
     .navbar-dark .navbar-nav .active a, .navbar-dark .navbar-nav .active a:focus,.navbar-dark .navbar-nav .active a:hover{
       color: #FFFF;
@@ -34,6 +39,10 @@
     .nav-item{
       margin-left:15px;
       margin-right:15px;
+    }
+    .img-fluid{
+      margin: 15px 0px;
+      width: 100%;
     }
     header.masthead {
   margin-bottom: 50px;
@@ -90,54 +99,73 @@ header.masthead .site-heading .subheading {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media only screen and (min-width: 768px) {
-  header.masthead .page-heading h1,
-  header.masthead .site-heading h1 {
-    font-size: 80px;
+  @media only screen and (min-width: 768px) {
+    header.masthead .page-heading h1,
+    header.masthead .site-heading h1 {
+      font-size: 80px;
+    }
   }
-}
 
-header.masthead .post-heading h1 {
-  font-size: 35px;
-}
-
-header.masthead .post-heading .meta,
-header.masthead .post-heading .subheading {
-  line-height: 1.1;
-  display: block;
-}
-
-header.masthead .post-heading .subheading {
-  font-size: 24px;
-  font-weight: 600;
-  margin: 10px 0 30px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-header.masthead .post-heading .meta {
-  font-size: 20px;
-  font-weight: 300;
-  font-style: italic;
-  font-family: 'Lora', 'Times New Roman', serif;
-}
-
-header.masthead .post-heading .meta a {
-  color: #fff;
-}
-
-@media only screen and (min-width: 768px) {
   header.masthead .post-heading h1 {
-    font-size: 55px;
+    font-size: 35px;
   }
+
+  header.masthead .post-heading .meta,
   header.masthead .post-heading .subheading {
-    font-size: 30px;
+    line-height: 1.1;
+    display: block;
   }
-}
+
+  header.masthead .post-heading .subheading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0 30px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+
+  header.masthead .post-heading .meta {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Lora', 'Times New Roman', serif;
+  }
+
+  header.masthead .post-heading .meta a {
+    color: #fff;
+  }
+
+  @media only screen and (min-width: 768px) {
+    header.masthead .post-heading h1 {
+      font-size: 55px;
+    }
+    header.masthead .post-heading .subheading {
+      font-size: 30px;
+    }
+  }
+  footer{
+      width: 100%;
+      background-color: #222222;
+      padding: 5%;
+      color: #FFF;
+    }
+    .container-fluid{
+      padding-bottom: 10px;
+    }
+    .fa{
+      padding: 15px;
+      font-size: 25px;
+      color: #FFF;
+    }
+    .fa:hover{
+      color: #D5D5D5;
+      text-decoration: none;
+    }
     </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">WebSite Name</a>
+      <a href="index.html"><img src="img/footer_img.png" class="brand-img"></a>
+      <a class="navbar-brand" href="index.html">BackRubBuildings</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -150,10 +178,10 @@ header.masthead .post-heading .meta a {
             <a class="nav-link" href="buildings.html">Buildings</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -183,13 +211,14 @@ header.masthead .post-heading .meta a {
             <p>There has been controversy about the real identity of the architect of the Leaning Tower of Pisa. For many years, the design was attributed to Guglielmo and Bonanno Pisano, a well-known 12th-century resident artist of Pisa, known for his bronze casting, particularly in the Pisa Duomo. Pisano left Pisa in 1185 for Monreale, Sicily, only to come back and die in his home town. A piece of cast bearing his name was discovered at the foot of the tower in 1820, but this may be related to the bronze door in the façade of the cathedral that was destroyed in 1595. A 2001 study seems to indicate Diotisalvi was the original architect, due to the time of construction and affinity with other Diotisalvi works, notably the bell tower of San Nicola and the Baptistery, both in Pisa.</p>
             <p>The tower began to sink after construction had progressed to the second floor in 1178. This was due to a mere three-metre foundation, set in weak, unstable subsoil, a design that was flawed from the beginning. Construction was subsequently halted for almost a century, as the Republic of Pisa was almost continually engaged in battles with Genoa, Lucca, and Florence. This allowed time for the underlying soil to settle. Otherwise, the tower would almost certainly have toppled. On 27 December 1233, the worker Benenato, son of Gerardo Bottici, oversaw the continuation of the tower's construction.</p>
             <p>On 23 February 1260, Guido Speziale, son of Giovanni Pisano, was elected to oversee the building of the tower. On 12 April 1264, the master builder Giovanni di Simone, architect of the Camposanto, and 23 workers went to the mountains close to Pisa to cut marble. The cut stones were given to Rainaldo Speziale, worker of St. Francesco. In 1272, construction resumed under Di Simone. In an effort to compensate for the tilt, the engineers built upper floors with one side taller than the other. Because of this, the tower is curved. Construction was halted again in 1284 when the Pisans were defeated by the Genoans in the Battle of Meloria.</p>
-            <img class="img-fluid" src="img/pisa_1.jpg" alt="">
-
+            <div class="text-img">
+              <img class="img-fluid" src="img/pisa_1.jpg" alt="">
+            </div>
             <h2 class="section-heading">History following construction</h2>
-            <p>Between 1589 and 1592,[citation needed] Galileo Galilei, who lived in Pisa at the time, is said to have dropped two cannonballs of different masses from the tower to demonstrate that their speed of descent was independent of their mass. The primary source for this is the biography Racconto istorico della vita di Galileo Galilei (Historical Account of the Life of Galileo Galilei), written by Galileo's pupil and secretary Vincenzo Viviani in 1654, but only published in 1717, long after his death. [19][20]</p>
+            <p>Between 1589 and 1592,[citation needed] Galileo Galilei, who lived in Pisa at the time, is said to have dropped two cannonballs of different masses from the tower to demonstrate that their speed of descent was independent of their mass. The primary source for this is the biography Racconto istorico della vita di Galileo Galilei (Historical Account of the Life of Galileo Galilei), written by Galileo's pupil and secretary Vincenzo Viviani in 1654, but only published in 1717, long after his death.</p>
             <p>During World War II, the Allies suspected that the Germans were using the tower as an observation post. A U.S. Army sergeant sent to confirm the presence of German troops in the tower was impressed by the beauty of the cathedral and its campanile, and thus refrained from ordering an artillery strike, sparing it from destruction.</p>
             <p>Numerous efforts have been made to restore the tower to a vertical orientation or at least keep it from falling over. Most of these efforts failed; some worsened the tilt. On 27 February 1964, the government of Italy requested aid in preventing the tower from toppling. It was, however, considered important to retain the current tilt, due to the role that this element played in promoting the tourism industry of Pisa.</p>
-            <p>The tower was closed to the public on 7 January 1990, after more than two decades of stabilisation studies and spurred by the abrupt collapse of the Civic Tower of Pavia in 1989. The bells were removed to relieve some weight and cables were cinched around the third level and anchored several hundred meters away. Apartments and houses in the path of a potential fall of the tower were vacated for safety. The selected method for preventing the collapse of the tower was to slightly reduce its tilt to a safer angle by soil removal 38 cubic metres (1,342 cubic feet) from underneath the raised end. The tower's tilt was reduced by 45 centimetres (17.7 inches), returning to its 1838 position. After a decade of corrective reconstruction and stabilization efforts, the tower was reopened to the public on 15 December 2001, and was declared stable for at least another 300 years.[24] In total, 70 metric tons (77 short tons) of soil were removed.</p>
+            <p>The tower was closed to the public on 7 January 1990, after more than two decades of stabilisation studies and spurred by the abrupt collapse of the Civic Tower of Pavia in 1989. The bells were removed to relieve some weight and cables were cinched around the third level and anchored several hundred meters away. Apartments and houses in the path of a potential fall of the tower were vacated for safety. The selected method for preventing the collapse of the tower was to slightly reduce its tilt to a safer angle by soil removal 38 cubic metres (1,342 cubic feet) from underneath the raised end. The tower's tilt was reduced by 45 centimetres (17.7 inches), returning to its 1838 position. After a decade of corrective reconstruction and stabilization efforts, the tower was reopened to the public on 15 December 2001, and was declared stable for at least another 300 years. In total, 70 metric tons (77 short tons) of soil were removed.</p>
             
             <p>Placeholder text by
             <a href="https://wikipedia.com/">Wikipedia</a>. Photographs by
@@ -198,5 +227,28 @@ header.masthead .post-heading .meta a {
         </div>
       </div>
     </article>
+    <footer class="container-fluid text-center">
+    <div class="row" id="contact">
+      <div class="col-sm-4">
+        <h3>Contact Us</h3>
+        <p>1600 Amphitheatre Parkway</p>
+        <p>Mountain View, CA 94043</p>
+        <p>T: 212-565-0000</p>
+        <p>F: 212-565-0011</p>
+        <p>E: google@gmail.com</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Connect</h3>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/footer_img.png" class="icon">
+      </div>
+    </div>
+  </footer>
   </body>
 </html>

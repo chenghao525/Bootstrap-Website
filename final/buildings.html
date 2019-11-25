@@ -19,10 +19,15 @@
       background-color: #222222;!important
       color: #222222;
     }
-    .navbar-brand{
+     .navbar-brand{
+      color: #FFF;
       float: left;
       min-height: 55px;
-      padding: 0 15px 5px;
+      padding: 15px 5px 15px 5px;
+    }
+    .brand-img{
+      width: 2em;
+      height: 2em;
     }
     .navbar-dark .navbar-nav .active a, .navbar-dark .navbar-nav .active a:focus,.navbar-dark .navbar-nav .active a:hover{
       color: #FFFF;
@@ -47,7 +52,12 @@
       height: 450px;
       width: 740px;
     }
-
+    footer{
+      width: 100%;
+      background-color: #222222;
+      padding: 5%;
+      color: #FFF;
+    }
     @media (min-width: 992px) {
       #bar-left{
         padding: 0 0 0 2rem;
@@ -85,15 +95,24 @@
         border: 2px solid-#FFFF
       }
     }
-/*    .col-xl-8{
-      max-width: none;
-      flex:none;
-    }*/
+    .container-fluid{
+      padding-bottom: 10px;
+    }
+    .fa{
+      padding: 15px;
+      font-size: 25px;
+      color: #FFF;
+    }
+    .fa:hover{
+      color: #D5D5D5;
+      text-decoration: none;
+    }
     </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">WebSite Name</a>
+      <a href="index.html"><img src="img/footer_img.png" class="brand-img"></a>
+      <a class="navbar-brand" href="index.html">BackRubBuildings</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -107,10 +126,10 @@
             <a class="nav-link" href="buildings.html">Buildings</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -145,7 +164,7 @@
           </div>
           <div class="btn-container">
             <br>
-            <a href="about.html" class="btn btn-default" role="button">Explore!</a>
+            <a href="shanghai.html" class="btn btn-default" role="button">Explore!</a>
           </div>
         </div>
         <div class="col-xl-8 col-lg-7">
@@ -166,7 +185,7 @@
           </div>
           <div class="btn-container">
             <br>
-            <a href="about.html" class="btn btn-default" role="button">Explore!</a>
+            <a href="eiffel.html" class="btn btn-default" role="button">Explore!</a>
           </div>
         </div>
       </div>
@@ -181,7 +200,7 @@
           </div>
           <div class="btn-container">
             <br>
-            <a href="about.html" class="btn btn-default" role="button">Explore!</a>
+            <a href="pisa.html" class="btn btn-default" role="button">Explore!</a>
           </div>
         </div>
         <div class="col-xl-8 col-lg-7">
@@ -190,5 +209,28 @@
       </div>
     </div>
   </section>
+  <footer class="container-fluid text-center">
+    <div class="row" id="contact">
+      <div class="col-sm-4">
+        <h3>Contact Us</h3>
+        <p>1600 Amphitheatre Parkway</p>
+        <p>Mountain View, CA 94043</p>
+        <p>T: 212-565-0000</p>
+        <p>F: 212-565-0011</p>
+        <p>E: google@gmail.com</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Connect</h3>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/footer_img.png" class="icon">
+      </div>
+    </div>
+  </footer>
   </body>
 </html>
